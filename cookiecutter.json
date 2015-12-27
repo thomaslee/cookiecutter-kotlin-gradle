@@ -5,6 +5,11 @@
     "package_path": "{{ cookiecutter.package_name | replace('.', '/') }}",
     "group": "{{ cookiecutter.package_name }}",
     "version": "0.0.1-SNAPSHOT",
-    "kotlin_version": "1.0.0-beta-4584"
+    "kotlin_version": "1.0.0-beta-4584",
+    "_copy_without_render": [
+        "gradlew",
+        "gradlew.bat",
+        "gradle/wrapper/gradle-wrapper.jar"
+    ]
 }
 
