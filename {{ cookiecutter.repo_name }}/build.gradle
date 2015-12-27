@@ -29,5 +29,3 @@ dependencies {
     testCompile 'org.mockito:mockito-core:2.0.33-beta'
 }
 
-task wrapper(type: Wrapper)
-
