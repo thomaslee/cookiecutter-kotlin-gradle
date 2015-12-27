@@ -8,6 +8,9 @@ buildscript {
 }
 
 apply plugin: 'kotlin'
+{% if cookiecutter.use_intellij_idea == 'yes' %}
+apply plugin: 'idea'
+{% endif %}
 
 repositories {
     mavenCentral()

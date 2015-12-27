@@ -7,6 +7,7 @@
     "version": "0.0.1-SNAPSHOT",
     "kotlin_version": "1.0.0-beta-4584",
     "gradle_version": "2.10",
+    "use_intellij_idea": "yes",
     "_copy_without_render": [
         "gradlew",
         "gradlew.bat",
