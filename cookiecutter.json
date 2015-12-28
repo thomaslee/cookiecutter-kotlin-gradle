@@ -1,5 +1,5 @@
 {
-    "name": "Kotlin Project",
+    "name": "my_kotlin_project",
     "repo_name": "{{ cookiecutter.name | lower | replace(' ', '_') }}",
     "package_name": "co.tomlee.{{ cookiecutter.repo_name | replace('-', '') | replace('_', '') }}",
     "package_path": "{{ cookiecutter.package_name | replace('.', '/') }}",
